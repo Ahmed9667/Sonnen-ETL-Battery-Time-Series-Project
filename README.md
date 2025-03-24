@@ -9,4 +9,10 @@ This project is consisting of CSV file containing battery time series data. The 
 
 ### Data Transformation:
 
-`1.`import dataset
+`1.`Import dataset:
+```python
+import pandas as pd
+import numpy as np
+df = pd.read_csv(r'C:\Users\Ahmed\Desktop\sonnen\measurements_coding_challenge.csv',delimiter=';')
+df
+```
